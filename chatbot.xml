@@ -1,0 +1,103 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<category>
+  <pattern>HELLO</pattern>
+  <template>
+    <random>
+      <li>Hello! How are you?</li>
+      <li>Hi there! What can I assist you with?</li>
+      <li>Greetings! Hope you're doing well.</li>
+      <li>Hey! Ready to smash some fitness goals?</li>
+    </random>
+  </template>
+</category>
+<category>
+  <pattern>HI</pattern>
+  <template><srai>HELLO</srai></template>
+</category>
+<category>
+  <pattern>HOW ARE YOU</pattern>
+  <template>I'm functioning within normal parameters, thanks for asking. How's your workout going?</template>
+</category>
+
+
+<category>
+  <pattern>BYE</pattern>
+  <template>Bye! Stay strong and keep pushing forward!</template>
+</category>
+<category>
+  <pattern>GOODBYE</pattern>
+  <template><srai>BYE</srai></template>
+</category>
+
+
+<category>
+  <pattern>WHAT IS A SQUAT</pattern>
+  <template>A squat is a lower-body exercise that targets the quadriceps, hamstrings, and glutes. It involves lowering your hips and standing back up.</template>
+</category>
+<category>
+  <pattern>WHAT IS CARDIO</pattern>
+  <template>Cardio workouts improve endurance and heart health. Examples include running, cycling, swimming, and HIIT workouts.</template>
+</category>
+
+
+<category>
+  <pattern>TELL ME ABOUT PUSH-UPS</pattern>
+  <template>Push-ups strengthen your upper body and core. Keep your back straight and engage your arms and chest for maximum benefits.</template>
+</category>
+<category>
+  <pattern>TELL ME ABOUT SQUATS</pattern>
+  <template>Squats build lower-body strength. Keep your chest up, knees aligned, and lower your body until your thighs are parallel to the floor.</template>
+</category>
+<category>
+  <pattern>TELL ME ABOUT CARDIO</pattern>
+  <template>Cardio improves stamina and burns calories. It includes running, cycling, and swimming. Try mixing different exercises for variety!</template>
+</category>
+
+
+<category>
+  <pattern>MOTIVATE ME</pattern>
+  <template>You got this! Progress is progress, no matter how small. Keep going!</template>
+</category>
+<category>
+  <pattern>GIVE ME A FITNESS QUOTE</pattern>
+  <template>"The only bad workout is the one you didn't do!"</template>
+</category>
+
+
+<category>
+  <pattern>WHAT SHOULD I EAT FOR BREAKFAST</pattern>
+  <template>Eat foods rich in fiber and protein like oatmeal, yogurt, eggs, or fruit smoothies.</template>
+</category>
+<category>
+  <pattern>BEST POST-WORKOUT MEALS</pattern>
+  <template>Post-workout, aim for a mix of protein and carbs. Good options: grilled chicken with rice, protein smoothies, or scrambled eggs with whole-wheat toast.</template>
+</category>
+<category>
+  <pattern>WHAT IS A HEALTHY SNACK</pattern>
+  <template>Nuts, yogurt, fruit, and protein bars are great snack choices.</template>
+</category>
+
+
+<category>
+  <pattern>HOW TO AVOID INJURIES WHILE EXERCISING</pattern>
+  <template>Warm up before workouts, use proper form, and don't push your body too hard. Listen to your body!</template>
+</category>
+
+
+<category>
+  <pattern>SHOW ME A BEGINNER WORKOUT</pattern>
+  <template>Start with: 10 minutes of stretching, 15 minutes of cardio, and basic strength training like squats and push-ups.</template>
+</category>
+<category>
+  <pattern>ADVANCED STRENGTH TRAINING ROUTINE</pattern>
+  <template>Try deadlifts, overhead presses, barbell squats, and bench presses. Always warm up first!</template>
+</category>
+
+
+<category>
+  <pattern>*</pattern>
+  <template>Sorry, I don't know the answer to that yet. But I'm always learning!</template>
+</category>
+
+</aiml>
